@@ -1,0 +1,8 @@
+[{
+  "uid": "static",
+  "script": "./lib/static.js",
+  "args": ["--port", 80, "--dir", "../../client/browser/"],
+  "append": true,
+  "outFile": "./log/static-out.log",
+  "errFile": "./log/static-err.log"
+}]
