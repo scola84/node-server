@@ -1,0 +1,16 @@
+[{
+  "uid": "build",
+  "script": "./lib/build.js",
+  "args": ["--debug", "--dir", "../../client/browser/"],
+  "append": true
+}, {
+  "uid": "reload",
+  "script": "./lib/reload.js",
+  "args": ["--dir", "../../client/browser/"],
+  "append": true
+}, {
+  "uid": "static",
+  "script": "./lib/static.js",
+  "args": ["--port", 3000, "--dir", "../../client/browser/"],
+  "append": true
+}]
