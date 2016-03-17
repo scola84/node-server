@@ -1,3 +1,4 @@
 conf/*.json
 log
 node_modules
+npm-debug.log

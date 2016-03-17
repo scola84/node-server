@@ -1,7 +1,7 @@
 [{
   "uid": "build",
   "script": "./lib/build.js",
-  "args": ["--debug", "--dir", "../../client/browser/"],
+  "args": ["--debug", "--reload", "--dir", "../../client/browser/"],
   "append": true
 }, {
   "uid": "reload",
