@@ -10,12 +10,14 @@
     "livereload": "^0.4.1",
     "minifyify": "^7.3.2",
     "minimist": "^1.2.0",
-    "node-static": "^0.7.7",
     "watchify": "^3.7.0"
   },
   "scripts": {
     "dev": "forever --minUptime 1000 --spinSleepTime 1000 conf/dev.json",
     "prod": "forever start --minUptime 1000 --spinSleepTime 1000 conf/prod.json",
     "build": "node lib/build.js --minify --dir=\"../../client/browser/\""
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
